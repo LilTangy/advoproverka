@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Play:wght@400;700&display=swap&_v=20230916092203" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230916092203">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__inner">
+					<a href="#" class="header__logo-link"><img src="img/logo.svg" alt="" class="header__logo-img"></a>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item" data-goto-header data-goto=".wrong"><a href="#" class="menu__link">Что даёт
+										проверка?</a></li>
+								<li class="menu__item" data-goto-header data-goto=".select"><a href="#" class="menu__link">Как происходит
+										проверка</a></li>
+								<li class="menu__item" data-goto-header data-goto=".rewiews"><a href="#" class="menu__link">Отзывы</a></li>
+								<li class="menu__item" data-goto-header data-goto=".question"><a href="#" class="menu__link">FAQ</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="callback header__callback">
+						<a href="tel:+79876543210" class="callback__num">+7 987 654-32-10</a>
+						<a href="#" class="callback__link">Обратный звонок</a>
+					</div>
+				</div>
+			</div>
+			<div class="blur"></div>
+		</header>
+		<main class="page">
+			<section class="hero">
+				<div class="hero__container">
+					<div class="hero__inner">
+						<div class="hero__content">
+							<h2 class="hero__title">автономная некоммерческая организация</h2>
+							<h3 class="hero__subtitle">Национальная рейтинговая юридическая система</h3>
+							<div class="hero__offer offer">
+
+								<p class="offer__text offer__text--1">Подбор адвокатов по специализации</p>
+								<p class="offer__text offer__text--2">Проверка результатов адвокатов по базам судебных решений</p>
+								<a href="#" class="offer__btn btn">Бесплатно проверить</a>
+								<a href="#" class="offer__btn btn">Подобрать юриста/адвоката</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="choice">
+				<div class="choice__container">
+					<h4 class="choice__title">Как выбрать такого юриста или адвоката, который выиграет суд?</h4>
+					<div class="choice__items">
+						<div class="choice__item item-choice">
+							<div class="item-choice__top">
+								<img src="img/icons/choice-1.svg" alt="" class="item-choice__top-img">
+								<p class="item-choice__top-text">Выбирайте юристов с подтверждённым <span>судебным опытом</span></p>
+							</div>
+							<p class="item-choice__bot-text">проведших много судебных процессов. Сравнивайте, какие юристы,
+								не на словах, а в реальности, имеют больший судебный опыт.</p>
+						</div>
+						<div class="choice__item item-choice">
+							<div class="item-choice__top">
+								<img src="img/icons/choice-2.svg" alt="" class="item-choice__top-img">
+								<p class="item-choice__top-text">Выбирайте юристов с наибольшим % побед <span>в судебных
+										процессах</span></p>
+							</div>
+							<p class="item-choice__bot-text">стаж, опыт, офис, костюм, связи и рекомендации — это не главное.
+								Главное — выигрывает юрист суды или проигрывает. Какой % дел он выиграл</p>
+						</div>
+						<div class="choice__item item-choice">
+							<div class="item-choice__top">
+								<img src="img/icons/choice-3.svg" alt="" class="item-choice__top-img">
+								<p class="item-choice__top-text">Выбирайте юристов со специальзицией в <span>нужном Вам вопросе</span>
+								</p>
+							</div>
+							<p class="item-choice__bot-text">в каждой категории дел есть свои нюансы, познаваемые только на практике.
+								Арбитражные споры отличаются от уголовных, бракоразводные — от наследственных.</p>
+						</div>
+					</div>
+					<div class="choice__btns">
+						<a href="#" class="choice__btn btn">Проверить бесплатно</a>
+						<a href="#" class="choice__btn btn">Подобрать юриста или адвоката</a>
+					</div>
+				</div>
+			</section>
+			<section class="wrong">
+				<div class="wrong__container">
+					<h4 class="wrong__title">Что будет, если не правильно выбрать юриста или адвоката?</h4>
+					<div class="wrong__items">
+						<div class="wrong__item item-wrong">
+							<img src="img/icons/wrong-1.svg" alt="" class="item-wrong__img" data-da=".item-wrong__title--1,700,0">
+							<div class="item-wrong__content">
+								<div class="item-wrong__title item-wrong__title--1">
+									<p>Достаточная вероятность выбрать юриста, который <span>проиграет суд</span>
+									</p>
+								</div>
+								<p class="item-wrong__text">потому что, по статистике, этот юрист чаще проигрывает суды, чем выигрывает.
+									Или потому что, а реальности, юрист провёл мало судов и не имеет достаточного опыта. Или потому
+									что он не специализируется (разбирается только теоретически) в делах нужной категории</p>
+							</div>
+						</div>
+						<div class="wrong__item item-wrong">
+							<img src="img/icons/wrong-2.svg" alt="" class="item-wrong__img" data-da=".item-wrong__title--2,700,0">
+							<div class="item-wrong__content">
+								<div class="item-wrong__title item-wrong__title--2">
+									<p>Большая вероятность заплатить юристу или адвокату дороже, чем</p>
+								</div>
+								<p class="item-wrong__text">реальная рыночная стоимость этого специалиста. Дороже должны стоить услуги
+									юриста более высокой квалификации, более опытного, а глвное — того, кто чаще выигрывает. Но сейчас
+									это не так — стоимость услуг зависит от офиса, от умения продавать, но не от результатов.</p>
+							</div>
+						</div>
+						<div class="wrong__item item-wrong">
+							<img src="img/icons/wrong-3.svg" alt="" class="item-wrong__img" data-da=".item-wrong__title--3,700,0">
+							<div class="item-wrong__content">
+								<div class="item-wrong__title item-wrong__title--3">
+									<p>Некотарая вероятность столкнуться с <span>мошенничеством</span></p>
+								</div>
+								<p class="item-wrong__text">в самых разных видах. От обещания 100% успеха, а потом формального
+									выполнения своих обязательств, без задачи выиграть суд, до предложения коррупционных схем
+									(в реальности деньги уйдут в корман мошенника).</p>
+							</div>
+						</div>
+					</div>
+					<div class="wrong__solve solve-wrong">
+						<img src="img/icons/wrong-solve.svg" alt="" class="solve-wrong__img">
+						<p class="solve-wrong__text">Но все это можно проверить заранее, по базам судебных решений!</p>
+					</div>
+				</div>
+			</section>
+			<section class="select">
+				<div class="select__container">
+					<h4 class="select__title">Как происходит подбор и проверка юристов?</h4>
+					<div class="select__inner">
+						<div class="select__img">
+							<img src="img/select-bg.svg" alt="" class="select__image">
+							<a href="#" class="select__btn btn">Бесплатно проверить</a>
+						</div>
+						<div class="select__content">
+							<div class="select__item item-select">
+								<img src="img/icons/select-icon--1.svg" alt="" class="item-select__icon">
+								<p class="item-select__title">Вы сообщаете общую информацию о проблеме</p>
+								<p class="item-select__text">например "на меня подали в суд", или "я хочу подать в суд", или "на меня
+									завели уголовное дело". Подробно описывать все обстоятельства нет необходимости, так как анализировать
+									нюансы и обстоятельства будет уже один из одобренных Вами юристов.</p>
+							</div>
+							<div class="select__item item-select">
+								<img src="img/icons/select-icon--2.svg" alt="" class="item-select__icon">
+								<p class="item-select__title">Мы проводим аналитику и предоставляем Вам</p>
+								<p class="item-select__text">аналитические справки по нескольким юристам или адвокатам, имеющих
+									наибольшее число проведенных судебных процессов по делам вашей категории, и имеющих наибольший %
+									выигранных аналогичных дел.</p>
+							</div>
+							<div class="select__item item-select">
+								<img src="img/icons/select-icon--3.svg" alt="" class="item-select__icon">
+								<p class="item-select__title">Вы самостоятельно, или с нашей помощью, связываетесь с одобренным Вами
+									юристом или адвокатом</p>
+								<p class="item-select__text">Дополнительно возможно:</p>
+								<ul class="item-select__list">
+									<li class="item-select__list--item">
+										<p>Подбор юристов в нужной ценовой категории;</p>
+									</li>
+									<li class="item-select__list--item">
+										<p>
+											Помощь в заключении договора с выбранным;</p>
+									</li>
+									<li class="item-select__list--item">
+										<p>Проведение предварительных переговоров с выбранными адвокатами (кто из них готов взяться на
+											приемлемых для Вас условиях);</p>
+									</li>
+									<li class="item-select__list--item">
+										<p> Дополнительный независимый анализ судебной практики и прогноз шансов на выигрышь от аналитиков и
+											юристов-экспертов нашего сервиса.</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about">
+				<div class="about__container">
+					<h4 class="about__title">Национальная Рейтинговая Юридическая Система</h4>
+					<div class="about__inner">
+						<p class="about__text">Большинство решений судов сразу стали оцифровываться, и попадать в открытые базы
+							решений судов. Решения судов, за исключением некоторых категорий, относящихся к строго конфиденциальным,
+							теперь публикуются. Крупный бизнес и серьёзные юридические компании подробно анализируют судебную
+							практику. Без специального софта чаще всего невозможно определить дела, которые вёл юрист или адвокат.
+							Кроме того, опытный юрист или адвокат за 10 лет проводит десятки, а иногда и сотни судов, поэтому анализ
+							затруднителен без специального программного обеспечения и компетентных аналитиков и юристов.
+							АНО «Национальная Рейтинговая Юридическая Система» разработало и успешно применяет технологию анализа
+							судебных решений, доступных в государственных базах судебных решений. Наша технология позволяет получить
+							по юристу или адвокату информацию различной глубины, в зависимости от запроса.</p>
+						<div class="about__statistics statistics">
+							<p class="statistics__title">Статистика рейтинговой юридической системы:</p>
+							<div class="statistics__items">
+								<div class="statistics__item item-statistics">
+									<img src="img/icons/statistics__item-1.svg" alt="" class="item-statistics__img">
+									<p class="item-statistics__title">30 лет назад</p>
+									<p class="item-statistics__text">существовали только разрозненные бумажные архивы</p>
+								</div>
+								<div class="statistics__item item-statistics">
+									<img src="img/icons/statistics__item-1.svg" alt="" class="item-statistics__img">
+									<p class="item-statistics__title">20 лет назад</p>
+									<p class="item-statistics__text">сборники законов появились в интернете и на CD-дисках</p>
+								</div>
+								<div class="statistics__item item-statistics">
+									<img src="img/icons/statistics__item-2.svg" alt="" class="item-statistics__img">
+									<p class="item-statistics__title">10 лет назад</p>
+									<p class="item-statistics__text">в электронных базах начали публиковаться многие решения судов</p>
+								</div>
+								<div class="statistics__item item-statistics">
+									<img src="img/icons/statistics__item-2.svg" alt="" class="item-statistics__img">
+									<p class="item-statistics__title">Сейчас</p>
+									<p class="item-statistics__text">98% судебных решений оцифровываются, публикуются, доступны</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="rewiews">
+				<div class="rewiews__container">
+					<h4 class="rewiews__title">Отзывы</h4>
+					<!-- Оболочка слайдера -->
+					<div class="rewiews__slider swiper">
+						<!-- Двигающееся часть слайдера -->
+						<div class="rewiews__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="rewiews__slide swiper-slide slide-rewiews">
+								<div class="slide-rewiews__top">
+									<p class="slide-rewiews__title">Благодаря сервису не попала к мошенникам!</p>
+									<p class="slide-rewiews__text">Ещё 25–30 лет назад юристы отслеживали изменения в законодательстве
+										покупая бумажные сборники законов, и выписывая специальные газеты, в которых публиковались свежие
+										изменения в законодательстве</p>
+								</div>
+								<div class="slide-rewiews__bot">
+									<p class="slide-rewiews__name">Наталья Викторовна</p>
+									<p class="slide-rewiews__date">11.10.2021</p>
+								</div>
+							</div>
+							<div class="rewiews__slide swiper-slide slide-rewiews">
+								<div class="slide-rewiews__top">
+									<p class="slide-rewiews__title">Благодаря сервису не попала к мошенникам!</p>
+									<p class="slide-rewiews__text">Ещё 25–30 лет назад юристы отслеживали изменения в законодательстве
+										покупая бумажные сборники законов, и выписывая специальные газеты, в которых публиковались свежие
+										изменения в законодательстве</p>
+								</div>
+								<div class="slide-rewiews__bot">
+									<p class="slide-rewiews__name">Наталья Викторовна</p>
+									<p class="slide-rewiews__date">11.10.2021</p>
+								</div>
+							</div>
+							<div class="rewiews__slide swiper-slide slide-rewiews">
+								<div class="slide-rewiews__top">
+									<p class="slide-rewiews__title">Благодаря сервису не попала к мошенникам!</p>
+									<p class="slide-rewiews__text">Ещё 25–30 лет назад юристы отслеживали изменения в законодательстве
+										покупая бумажные сборники законов, и выписывая специальные газеты, в которых публиковались свежие
+										изменения в законодательстве</p>
+								</div>
+								<div class="slide-rewiews__bot">
+									<p class="slide-rewiews__name">Наталья Викторовна</p>
+									<p class="slide-rewiews__date">11.10.2021</p>
+								</div>
+							</div>
+							<div class="rewiews__slide swiper-slide slide-rewiews">
+								<div class="slide-rewiews__top">
+									<p class="slide-rewiews__title">Благодаря сервису не попала к мошенникам!</p>
+									<p class="slide-rewiews__text">Ещё 25–30 лет назад юристы отслеживали изменения в законодательстве
+										покупая бумажные сборники законов, и выписывая специальные газеты, в которых публиковались свежие
+										изменения в законодательстве</p>
+								</div>
+								<div class="slide-rewiews__bot">
+									<p class="slide-rewiews__name">Наталья Викторовна</p>
+									<p class="slide-rewiews__date">11.10.2021</p>
+								</div>
+							</div>
+							<div class="rewiews__slide swiper-slide slide-rewiews">
+								<div class="slide-rewiews__top">
+									<p class="slide-rewiews__title">Благодаря сервису не попала к мошенникам!</p>
+									<p class="slide-rewiews__text">Ещё 25–30 лет назад юристы отслеживали изменения в законодательстве
+										покупая бумажные сборники законов, и выписывая специальные газеты, в которых публиковались свежие
+										изменения в законодательстве Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto fugit
+										sit voluptate? Laudantium tempore officiis assumenda voluptatum labore temporibus ut, deserunt
+										voluptates quis, eius doloribus! Praesentium soluta deleniti deserunt maxime.
+										Doloremque earum dolorum repudiandae eaque voluptate suscipit architecto, est soluta corrupti.
+										Incidunt magnam illo ipsam quisquam culpa animi ipsa ad adipisci cum labore nobis, repellendus nam
+										qui assumenda quae quo.</p>
+								</div>
+								<div class="slide-rewiews__bot">
+									<p class="slide-rewiews__name">Наталья Викторовна</p>
+									<p class="slide-rewiews__date">11.10.2021</p>
+								</div>
+							</div>
+							<div class="rewiews__slide swiper-slide slide-rewiews">
+								<div class="slide-rewiews__top">
+									<p class="slide-rewiews__title">Благодаря сервису не попала к мошенникам!</p>
+									<p class="slide-rewiews__text">Ещё 25–30 лет назад юристы отслеживали изменения в законодательстве
+										покупая бумажные сборники законов, и выписывая специальные газеты, в которых публиковались свежие
+										изменения в законодательстве</p>
+								</div>
+								<div class="slide-rewiews__bot">
+									<p class="slide-rewiews__name">Наталья Викторовна</p>
+									<p class="slide-rewiews__date">11.10.2021</p>
+								</div>
+							</div>
+						</div>
+						<div class="rewiews__slider-nav">
+							<button type="button" class="swiper-button-prev rewiews__swiper-button-prev"></button>
+							<div class="swiper-pagination rewiews__swiper-pagination"></div>
+							<button type="button" class="swiper-button-next rewiews__swiper-button-next"></button>
+						</div>
+
+
+					</div>
+					<a href="#" class="rewiews__btn btn">Проверить бесплатно</a>
+				</div>
+			</section>
+			<section class="question">
+				<div class="question__container">
+					<h4 class="question__title">Частые вопросы</h4>
+					<div class="question__inner">
+						<div data-spollers class="spollers question-spollers">
+							<div class="spollers__item question-spollers__item item-question">
+								<button type="button" data-spoller class="spollers__title item-question__title">Почему я раньше
+									не слышал
+									об этой технологии?</button>
+								<div class="spollers__body item-question__body">Ещё 25–30 лет назад юристы отслеживали изменения
+									в законодательстве покупая бумажные сборники законов, и выписывая специальные газеты, в которых
+									публиковались свежие изменения в законодательстве</div>
+							</div>
+							<div class="spollers__item question-spollers__item item-question">
+								<button type="button" data-spoller class="spollers__title item-question__title">А если я не понимаю
+									к какой категории относится дело?</button>
+								<div class="spollers__body item-question__body">Контент спойлера</div>
+							</div>
+							<div class="spollers__item question-spollers__item item-question">
+								<button type="button" data-spoller class="spollers__title item-question__title">А если мне необходим
+									более
+									подробный анализ?</button>
+								<div class="spollers__body item-question__body">Контент спойлера</div>
+							</div>
+						</div>
+						<div data-spollers class="spollers question-spollers">
+							<div class="spollers__item question-spollers__item item-question">
+								<button type="button" data-spoller class="spollers__title item-question__title">Это действительно
+									бесплатно?</button>
+								<div class="spollers__body item-question__body">Контент спойлера</div>
+							</div>
+							<div class="spollers__item question-spollers__item item-question">
+								<button type="button" data-spoller class="spollers__title item-question__title">Как я проверю
+									что адвокат
+									или юрист действительно участвовал в тех судах, которые указаны в аналитической справке?</button>
+								<div class="spollers__body item-question__body">Контент спойлера</div>
+							</div>
+							<div class="spollers__item question-spollers__item item-question">
+								<button type="button" data-spoller class="spollers__title item-question__title">А если нужно проверить
+									юриста, не учавствующего в судах?</button>
+								<div class="spollers__body item-question__body">Контент спойлера</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="check">
+				<div class="check__container">
+					<h4 class="check__title">Проверь бесплатно юриста или адвоката</h4>
+					<div class="check__inner">
+						<form class="check__form form-check" action="#" method="post">
+							<input class="form-check__input" data-validate data-required type="text" name="" id="" placeholder="ФИО юриста или адвоката">
+							<input class="form-check__input" data-validate data-required type="text" name="" id="" placeholder="Категория дела (своими словами)">
+							<input class="form-check__input form-check__input--change" data-validate data-required="email" type="email" name="" id="" placeholder="Email для получения аналитической справки">
+							<input class="form-check__input" data-validate data-required type="text" name="" id="" placeholder="Ваше имя">
+							<input class="form-check__input" data-validate data-required type="text" name="" id="" placeholder="Ваш телефон">
+							<button class="form-check__btn btn" type="submit">Проверить бесплатно</button>
+						</form>
+						<img src="img/check-bg.svg" alt="" class="check__bg">
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<a href="#" class="footer__logo-link"><img src="img/logo.svg" alt="" class="footer__logo-img"></a>
+					<ul class="menu__list menu__list--footer">
+						<li class="menu__item"><a href="#" class="menu__link">Что даёт проверка?</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Как происходит проверка</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">FAQ</a></li>
+					</ul>
+					<ul class="footer__links" data-da=".center-footer, 1000, 1">
+						<li class="footer__links--item"><a class="footer__link" href="#">
+								<img src="img/icons/vk-icon.svg" alt="" class="footer__link--img">
+							</a></li>
+						<li class="footer__links--item"><a class="footer__link" href="#">
+								<img src="img/icons/twitter-icon.svg" alt="" class="footer__link--img">
+							</a></li>
+						<li class="footer__links--item"><a class="footer__link" href="#">
+								<img src="img/icons/facebook-icon.svg" alt="" class="footer__link--img">
+							</a></li>
+						<li class="footer__links--item"><a class="footer__link" href="#">
+								<img src="img/icons/telegram-icon.svg" alt="" class="footer__link--img">
+							</a></li>
+					</ul>
+				</div>
+				<div class="footer__center center-footer">
+					<div class="center-footer__column" data-da=".center-footer, 768, 3">
+						<p class="center-footer__address">Москва, ул. Мастеркова, д.4</p>
+						<a class="center-footer__link" href="#">Политика конфиденциальности</a>
+					</div>
+					<div class="center-footer__column center-footer__column--nmbrs" data-da=".footer__between, 1000, 0">
+						<a href="tel:+74951180830" class="center-footer__num">+7 495 118-08-30</a>
+						<a href="tel:+88007072467" class="center-footer__num">+8 800 707-24-67</a>
+					</div>
+				</div>
+				<div class="footer__between" data-da=".center-footer, 768, 1"></div>
+				<div class="footer__bot">
+					<p class="footer__bot--item">© АНО Национальная Рейтинговая Юридическая Система 2019–2021</p>
+					<p class="footer__bot--item">ОГРН 1197700008835</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20230916092203"></script>
+</body>
+
+</html>
